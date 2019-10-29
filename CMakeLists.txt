@@ -19,10 +19,10 @@ find_package(Boost REQUIRED COMPONENTS system)
 #   GPSQual.msg
 # )
 
-generate_messages(
-  DEPENDENCIES
-  std_msgs
-)
+# generate_messages(
+#   DEPENDENCIES
+#   std_msgs
+# )
 
 catkin_package(
   CATKIN_DEPENDS geometry_msgs nav_msgs rospy std_msgs sensor_msgs message_runtime
