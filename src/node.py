@@ -18,7 +18,7 @@ class Node:
 
         rospy.loginfo("Starting node...")
 
-        self.rate = 1.0
+        self.rate = 10.0
 
         self.pub_tf = tf.TransformBroadcaster()
         
